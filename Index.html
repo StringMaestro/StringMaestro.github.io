@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>Mandelbrot Visualized with HTML 5 &amp; C++</title>
+    <title>Mandelbrot Visualized with HTML 5 &amp; JavaScript</title>
    <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -246,8 +246,7 @@
 
 
 
-            // Start drawing
-
+            // Start Mandelbrot Set Drawing
             function checkIfBelongsToMandelbrotSet(x, y) {
 
                 let realComponentOfResult = x;
@@ -288,11 +287,11 @@
 
             // Set appearance settings
 
-            const magnificationFactor = 500;
+            const magnificationFactor = 300;
 
-            const panX = 0.7;
+            const panX = 2.7;
 
-            const panY = 0.6;
+            const panY = 1.3;
 
             for (let x = 0; x < myCanvas.width; x++) {
 
