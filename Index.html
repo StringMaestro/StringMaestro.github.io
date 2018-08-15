@@ -212,7 +212,7 @@
         <div id="bottom">
             <small>
                 Created by <a href="https://github.com/StringMaestro">Christian Boswell</a> &mdash;
-                <a href="https://github.com/StringMaestro/StringMaestro.github.io">Code on Github</a>
+                <a href="https://github.com/StringMaestro/StringMaestro.github.io">Source Code on Github</a>
                 <br /> &nbsp; <br />
                 You May move around with your mouse and or arrow keys.  A new rendering system will be implemented soon!
             </small>
@@ -285,7 +285,7 @@
 
 
 
-            // Set appearance settings
+            // This sets the preferred Mandelbrot parameters. 
 
             const magnificationFactor = 300;
 
@@ -303,7 +303,7 @@
 
                         ctx.fillStyle = '#000';
 
-                        // Draw a black pixel
+                        // Creates a black pixel
 
                         ctx.fillRect(x, y, 1, 1);
 
@@ -311,7 +311,7 @@
 
                         ctx.fillStyle = `hsl(0, 100%, ${belongsToSet}%)`;
 
-                        // Draw a colorful pixel
+                        // Draws a colorful pixel around Fractal borders according to the equation
 
                         ctx.fillRect(x, y, 1, 1);
 
